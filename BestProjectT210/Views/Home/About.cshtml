@@ -1,0 +1,371 @@
+﻿@{
+    ViewData["Title"] = "Haqqimizda";
+    About myAbout = ViewData["AboutSingle"] as About;
+}
+  <main class="main-content">
+    <!--== Start Page Title Area ==-->
+    <section class="page-title-area">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12 m-auto">
+            <div class="page-title-content text-center">
+              <h2 class="title">About Us</h2>
+              <div class="bread-crumbs"><a href="index.html"> Home </a><span class="breadcrumb-sep"> // </span><span class="active"> About Us</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Page Title Area ==-->
+
+    <!--== Start Divider Area Wrapper ==-->
+    <section class="divider-area divider-style3-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+            <div class="thumb">
+              <img src="@myAbout.PhotoUrl" alt="Image">
+              <div class="shape-group">
+                <div class="shape-style1">
+                  <img class="img-fluid" src="/assets/img/divider/shape3.png" alt="Image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 ps-5" data-aos="fade-up" data-aos-duration="1000">
+            <div class="divider-content">
+              <h4 class="subtitle">@myAbout.SubHeader</h4>
+              <h2 class="title">@myAbout.Header</h2>
+              <p>@myAbout.Description</p>
+              <a class="btn-theme" href="contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Divider Area Wrapper ==-->
+
+    <!--== Start Brand Logo Area ==-->
+    <div class="brand-logo-area brand-logo-default-area" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="swiper-container brand-logo-slider-container">
+              <div class="swiper-wrapper brand-logo-slider">
+                <div class="swiper-slide brand-logo-item">
+                  <a href="#/"><img src="/assets/img/brand-logo/1.png" alt="Brand-Logo"></a>
+                </div>
+                <div class="swiper-slide brand-logo-item">
+                  <a href="#/"><img src="/assets/img/brand-logo/2.png" alt="Brand-Logo"></a>
+                </div>
+                <div class="swiper-slide brand-logo-item">
+                  <a href="#/"><img src="/assets/img/brand-logo/3.png" alt="Brand-Logo"></a>
+                </div>
+                <div class="swiper-slide brand-logo-item">
+                  <a href="#/"><img src="/assets/img/brand-logo/4.png" alt="Brand-Logo"></a>
+                </div>
+                <div class="swiper-slide brand-logo-item">
+                  <a href="#/"><img src="/assets/img/brand-logo/5.png" alt="Brand-Logo"></a>
+                </div>
+                <div class="swiper-slide brand-logo-item">
+                  <a href="#/"><img src="/assets/img/brand-logo/6.png" alt="Brand-Logo"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End Brand Logo Area ==-->
+
+    <!--== Start Team Area ==-->
+    <section class="team-area team-default-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-lg-6 m-auto">
+            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
+              <h2 class="title">Team Member</h2>
+              <div class="desc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-up" data-aos-duration="1300">
+          <div class="col-md-4">
+            <div class="team-member">
+              <div class="thumb">
+                <img src="/assets/img/team/1.png" alt="Image">
+                <div class="member-icons">
+                  <a href="#/"><i class="fa fa-facebook"></i></a>
+                  <a href="#/"><i class="fa fa-dribbble"></i></a>
+                  <a href="#/"><i class="fa fa-pinterest-p"></i></a>
+                  <a href="#/"><i class="fa fa-twitter"></i></a>
+                </div>
+              </div>
+              <div class="content">
+                <div class="member-info">
+                  <h4 class="name"><a href="#/">Alyana Thomson</a></h4>
+                  <h6 class="designation">Customer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-member mt-sm-50">
+              <div class="thumb">
+                <img src="/assets/img/team/2.png" alt="Image">
+                <div class="member-icons">
+                  <a href="#/"><i class="fa fa-facebook"></i></a>
+                  <a href="#/"><i class="fa fa-dribbble"></i></a>
+                  <a href="#/"><i class="fa fa-pinterest-p"></i></a>
+                  <a href="#/"><i class="fa fa-twitter"></i></a>
+                </div>
+              </div>
+              <div class="content">
+                <div class="member-info">
+                  <h4 class="name"><a href="#/">Phoenix Walker</a></h4>
+                  <h6 class="designation">Customer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-member mt-sm-50">
+              <div class="thumb style-two">
+                <img src="/assets/img/team/3.png" alt="Image">
+                <div class="member-icons">
+                  <a href="#/"><i class="fa fa-facebook"></i></a>
+                  <a href="#/"><i class="fa fa-dribbble"></i></a>
+                  <a href="#/"><i class="fa fa-pinterest-p"></i></a>
+                  <a href="#/"><i class="fa fa-twitter"></i></a>
+                </div>
+              </div>
+              <div class="content">
+                <div class="member-info">
+                  <h4 class="name"><a href="#/">Oscar Thomsen</a></h4>
+                  <h6 class="designation">Customer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Team Area ==-->
+
+    <!--== Start Newsletter Area ==-->
+    <section class="testimonial-area testimonial-default-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 m-auto">
+            <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
+              <h2 class="title">Testimonial</h2>
+              <div class="desc">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-up" data-aos-duration="1300">
+          <div class="col-lg-12">
+            <div class="swiper-container testimonial-slider-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="client-content">
+                      <div class="inner-content">
+                        <div class="icon">
+                          <img src="/assets/img/icons/1.png" alt="Image">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consect adipisi elit sed do eiusmod temporlo incidid ut labore et dolore magnalop aliquall Ut enim ad minim.</p>
+                      </div>
+                      <div class="shape-group">
+                        <div class="shape-style1">
+                          <img src="/assets/img/testimonial/shape1.png" alt="Image">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="client-info">
+                      <div class="thumb">
+                        <img src="/assets/img/testimonial/1.png" alt="Image">
+                      </div>
+                      <div class="desc">
+                        <h4 class="title">Dasia Lovell</h4>
+                        <p>Customer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="client-content">
+                      <div class="inner-content">
+                        <div class="icon">
+                          <img src="/assets/img/icons/1.png" alt="Image">
+                        </div>
+                        <p>There are many variations of passage of Lorem Ipsum available, but the on majority have suffered alteration in some form, by injected humour.</p>
+                      </div>
+                      <div class="shape-group">
+                        <div class="shape-style1">
+                          <img src="/assets/img/testimonial/shape1.png" alt="Image">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="client-info">
+                      <div class="thumb">
+                        <img src="/assets/img/testimonial/2.png" alt="Image">
+                      </div>
+                      <div class="desc">
+                        <h4 class="title">Demetri Caron</h4>
+                        <p>Customer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="client-content">
+                      <div class="inner-content">
+                        <div class="icon">
+                          <img src="/assets/img/icons/1.png" alt="Image">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consect adipisi elit sed do eiusmod temporlo incidid ut labore et dolore magnalop aliquall Ut enim ad minim.</p>
+                      </div>
+                      <div class="shape-group">
+                        <div class="shape-style1">
+                          <img src="/assets/img/testimonial/shape1.png" alt="Image">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="client-info">
+                      <div class="thumb">
+                        <img src="/assets/img/testimonial/3.png" alt="Image">
+                      </div>
+                      <div class="desc">
+                        <h4 class="title">Akhil Newman</h4>
+                        <p>Customer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="client-content">
+                      <div class="inner-content">
+                        <div class="icon">
+                          <img src="/assets/img/icons/1.png" alt="Image">
+                        </div>
+                        <p>There are many variations of passage of Lorem Ipsum available, but the on majority have suffered alteration in some form, by injected humour.</p>
+                      </div>
+                      <div class="shape-group">
+                        <div class="shape-style1">
+                          <img src="/assets/img/testimonial/shape1.png" alt="Image">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="client-info">
+                      <div class="thumb">
+                        <img src="/assets/img/testimonial/1.png" alt="Image">
+                      </div>
+                      <div class="desc">
+                        <h4 class="title">Dasia Lovell</h4>
+                        <p>Customer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="client-content">
+                      <div class="inner-content">
+                        <div class="icon">
+                          <img src="/assets/img/icons/1.png" alt="Image">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consect adipisi elit sed do eiusmod temporlo incidid ut labore et dolore magnalop aliquall Ut enim ad minim.</p>
+                      </div>
+                      <div class="shape-group">
+                        <div class="shape-style1">
+                          <img src="/assets/img/testimonial/shape1.png" alt="Image">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="client-info">
+                      <div class="thumb">
+                        <img src="/assets/img/testimonial/2.png" alt="Image">
+                      </div>
+                      <div class="desc">
+                        <h4 class="title">Demetri Caron</h4>
+                        <p>Customer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="client-content">
+                      <div class="inner-content">
+                        <div class="icon">
+                          <img src="/assets/img/icons/1.png" alt="Image">
+                        </div>
+                        <p>There are many variations of passage of Lorem Ipsum available, but the on majority have suffered alteration in some form, by injected humour.</p>
+                      </div>
+                      <div class="shape-group">
+                        <div class="shape-style1">
+                          <img src="/assets/img/testimonial/shape1.png" alt="Image">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="client-info">
+                      <div class="thumb">
+                        <img src="/assets/img/testimonial/3.png" alt="Image">
+                      </div>
+                      <div class="desc">
+                        <h4 class="title">Akhil Newman</h4>
+                        <p>Customer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thumb-style bg-img" data-bg-img="/assets/img/testimonial/shape2.png"></div>
+    </section>
+    <!--== End Newsletter Area ==-->
+
+    <!--== Start Divider Area Wrapper ==-->
+    <section class="divider-area divider-style4-area" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="divider-wrap bg-img" data-bg-img="/assets/img/photos/bg1.png">
+              <div class="row align-items-center">
+                <div class="col-lg-6 position-relative">
+                  <div class="content">
+                    <h2>Subscribe for Exclusive Sales & News</h2>
+                  </div>
+                  <div class="shape-group">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="newsletter-form">
+                    <form action="#">
+                      <input class="form-control" type="email" placeholder="Enter Your Email">
+                      <button class="btn btn-theme" type="submit">Subscribe</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Divider Area Wrapper ==-->
+  </main>
